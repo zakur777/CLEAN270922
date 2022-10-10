@@ -25,7 +25,7 @@ public class ComponentConfiguration implements CommandLineRunner {
 				.id(1L).razonSocial("GALAXY TRAINING PERU")
 				.correo("contacto@galaxy.edu.pe")
 				.telefono("+51 950 4506")
-				.estado("1").ruc("RUCPRUEBA")
+				.estado("1")
 				.build());
 		
 		proveedorRespository.findAll().forEach((city) -> {
